@@ -1,6 +1,6 @@
 pragma solidity >=0.5.0;
 
-import './ds-proxy/proxy.sol';
+import 'ds-proxy/proxy.sol';
 
 interface ICarTokenController {
     function addNewInvestors(bytes32[] calldata _keys, address[] calldata _addrs) external;
